@@ -203,7 +203,7 @@ nav.sticky .burger div{
 
 .welcome-block p {
 	font-size: calc(2vh + 1vw);
-	margin: 10vh 0;
+	margin: 10vh 0 5vh;
 }
 
 .welcome-block h3 {
@@ -343,6 +343,7 @@ nav.sticky .burger div{
 .service-container img {
 	display: flex;
 	width: 35vw;
+	height: auto;
 }
 
 .service-container .text li {
@@ -416,11 +417,11 @@ nav.sticky .burger div{
 	text-align: center;
 }*/
 
-.about img {
+/*.about img {
 	display: flex;
 	width: 60vw;
 	height: auto;
-}
+}*/
 
 .about h1 {
 	margin-bottom: 3vh;
@@ -434,25 +435,16 @@ nav.sticky .burger div{
 	text-align: center;
 }
 
-.about .text h1 {
-	font-size: 0;
-}
-
 @media screen and (min-width: 768px){
 	.about-container {
 		flex-direction: row;
-	}
-	.about h1 {
-		font-size: 0;
+		width: 60vw;
 	}
 	.about .text h1 {
 		font-size: 5vh;
 	}
-	.about img {
-		width: 30vw;
-	}
 	.about .text {
-		width: 40vw;
+		width: 60vw;
 	}
 	.about .text p {
 		font-size: 1.5vw;
