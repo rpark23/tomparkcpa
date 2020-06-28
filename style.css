@@ -142,7 +142,7 @@ nav.sticky .burger div{
 		display: block;
 	}
 	.logo {
-		width: 50vw;
+		width: 60vw;
 	}
 }
 
@@ -337,12 +337,12 @@ nav.sticky .burger div{
 
 .service-container .text {
 	display: flex;
-	width: 60vw;
+	width: 50vw;
 }
 
 .service-container img {
 	display: flex;
-	width: 25vw;
+	width: 35vw;
 }
 
 .service-container .text li {
