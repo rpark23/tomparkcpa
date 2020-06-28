@@ -1,0 +1,179 @@
+<!doctype = html>
+<html lang="en">
+
+<head>
+	<title>Tom Park CPA</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<link rel='icon' href='favicon.png' type='image/icon'/>-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class = "home" id = "home">
+		<nav>
+			<div class = "logo">
+				<h1>
+					<a href = "#home">Tom Park LLC</a>
+				</h1>
+			</div>
+			<ul class = "nav-links">
+				<li>
+					<a href = "#services">Services</a>
+				</li>
+				<li>
+					<a href = "#about">About</a>
+				</li>
+				<li>
+					<a href = "#contact">Contact</a>
+				</li>
+			</ul>
+			<div class="burger">
+				<div class = "line1"></div>
+				<div class = "line2"></div>
+				<div class = "line3"></div>
+			</div>
+		</nav>
+		<div class = "tint">
+		</div>
+		<div class = "welcome-block">
+			<h2>Licensed CPA firm based in Honolulu, HI</h2>
+			<p>Since 2004, we have provided accounting and tax preparation services for businesses and individuals.</p>
+			<h3>Honest. Professional. Quality.</h3>
+    </div>
+		<!--<div class = "info-block">
+			<h3>Providing accounting and tax preparation services since 2004</h3>
+		</div>-->
+		<a href = "#services"><div class = "scroll" id = "services">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div></a>
+  </div>
+	<!--<section class = "help">
+		<h3>Find out how we can help you!</h3>
+	</section>-->
+	<div class = "services">
+		<h2>Services Offered</h2>
+		<div class = "service-container">
+			<div>
+				<div class = text>
+					<h2>Accounting Services</h2>
+					<ul>
+						<li>Bookkeeping (Monthly/Quarterly/Yearly)</li>
+						<li>Bank Reconciliation</li>
+						<li>Financial Statement Preparation</li>
+						<li>Individual Consultation</li>
+					</ul>
+				</div>
+				<img src="img/accounting.png">
+			</div>
+			<div>
+				<img src="img/payroll.png">
+				<div class = text>
+					<h2>Payroll Services</h2>
+					<ul>
+						<li>Federal & State Payroll Tax Filings</li>
+						<li>Payroll & Payroll Taxes Computation</li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<div class = text>
+					<h2>Tax Services</h2>
+					<ul>
+						<li>Tax Planning</li>
+						<li>Federal & State Tax Return Preparation</li>
+						<li>Individuals & LLCs</li>
+						<li>Corporations & Partnerships</li>
+						<li>Trusts, Estate and Gifts</li>
+						<li>Foreign and International</li>
+						<li>Tax Problems</li>
+					</ul>
+				</div>
+				<img src="img/tax.png">
+			</div>
+			<div>
+				<img src="img/consulting.png">
+				<div class = text>
+					<h2>Consulting Services</h2>
+					<ul>
+						<li>New Business Formation</li>
+						<li>Financial Forecasts and Projection</li>
+						<li>Business Plan</li>
+						<li>QuickBooks Service</li>
+					</ul>
+				</div>
+			</div>
+
+			<div>
+				<div class = text>
+					<h2>Personal Financial Planning</h2>
+					<ul>
+						<li>Retirement Planning</li>
+						<li>Estate, Trust & Gift Planning</li>
+						<li>Child's College Education</li>
+					</ul>
+				</div>
+				<img src="img/planning.png">
+			</div>
+
+			<div>
+				<img src="img/foreign.png">
+				<div class = text>
+					<h2>Expat Tax Services</h2>
+					<ul>
+						<li>Foreign Tax Credit</li>
+						<li>Foreign Earned Income Exclusion</li>
+						<li>Foreign Bank Account Reporting (FBAR) & Financial Account Reporting</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class = "about" id = "about">
+		<div class = "about-container">
+			<h1>Tom Park, CPA</h1>
+			<img src = "img/tom.jpg">
+			<div class = "text">
+				<h1>Tom Park, CPA</h1>
+				<p>"Tom" Park is a certified public accountant (CPA), licensed to practice in the state of Hawaii and New Hampshire.
+					In addition, Tom is an enrolled agent (EA) who is a federally-licensed tax practitioner.
+					He graduated from Hawaii Pacific University with a master’s degree in accounting.
+					He is a member of the American Institute of Certified Public Accountants (AICPA).<br> <br>
+					Tom has more than 20 years experience in the field of accounting.
+					He specializes in international and foreign taxation, expatriate tax consulting,
+					business tax accounting, individual and business taxation. He is a dedicated community servant.
+					He has enjoyed being a volunteer to help his community with the Volunteer Income Tax Assistance (VITA) Program for many years.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class = "contact" id = "contact">
+		<div class = "contact-container">
+			<div class = "tint">
+			</div>
+			<h2>Contact Us</h2>
+			<form action="{{ SERVICE URL }}" method="POST">
+	  		<label>
+	    		Name
+	    		<input type="text" name="name" required>
+	  		</label>
+		  	<label>
+	    		Email
+	    		<input type="email" name="reply_to" required>
+	  		</label>
+	  		<label>
+	    		Message:
+	    		<textarea name="message" required></textarea>
+	  		</label>
+	  		<button type="submit">Send Message</button>
+			</form>
+		</div>
+
+	</div>
+
+	<script src="cpa.js"></script>
+</body>
